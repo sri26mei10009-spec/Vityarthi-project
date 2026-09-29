@@ -2,7 +2,7 @@
 # Interactive Electricity Bill Calculator
 
 ## Overview of the Project
-This is a modular Python application built for the VITyarthi flipped course evaluation. It simulates a real-world electricity billing system, applying dynamic slab-based pricing and outputting an itemized breakdown of charges.
+This is a Python program for electricity billing system, applying slab-based pricing and outputting rate in Rs and breakdown of charges.
 
 ## Features
 * **Interactive Command-Line Interface (CLI):** Provides a clear, continuous menu loop for seamless user navigation and multiple calculations.
