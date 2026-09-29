@@ -82,8 +82,3 @@ To thoroughly test the application, perform the following actions when the menu 
 3. **Test Error Handling:** Select option `1` and type some random letters (e.g., `abc`). The system should display an error and return you to the main menu instead of crashing.
 4. **Test Exit:** Select option `2` to verify that the program closes cleanly.
 """
-
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-print("README.md has been successfully generated in your current directory!")
