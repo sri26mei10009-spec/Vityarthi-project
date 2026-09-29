@@ -6,9 +6,9 @@ This is a Python program for electricity billing system, applying slab-based pri
 
 ## Features
 * **Interactive Command-Line Interface (CLI):** Provides a clear, continuous menu loop for seamless user navigation and multiple calculations.
-* **Dynamic Tiered Calculation:** Automatically distributes consumed units across different pricing slabs and stores the cost of each slab in a list data structure.
-* **Robust Error Handling:** Validates all user inputs to catch string inputs or negative numbers, preventing unexpected crashes (`ValueError` handling).
-* **Modular Architecture:** Separates the core mathematical logic, menu interface, constants, and validation rules into distinct files within a dedicated `program/` package.
+* **Auto Calculation:** Automatically distributes consumed units across different pricing slabs and stores the cost of each slab in a list data structure.
+* **Error Handling:** Validates all user inputs to catch string inputs or negative numbers, preventing unexpected crashes (`ValueError` handling).
+* **Architecture:** Separates the core mathematical logic, menu interface, constants, and validation rules into distinct files within a dedicated `program/` package.
 * **Itemized Output:** Displays both the final total cost and a detailed breakdown of charges per billing tier.
 
 ## Technologies & Tools Used
