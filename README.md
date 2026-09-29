@@ -45,4 +45,45 @@ Once you have installed the required tools, follow these steps to run the calcul
 **Step 1: Clone the Repository**
 Open your Command Prompt (cmd), and run the following command:
 ```cmd
+
 git clone https://github.com/sri26mei10009-spec/Vityarthi-project.git
+
+```
+
+**Step 2: Navigate to the Project Directory**
+Change your current directory to the downloaded repository using the `cd` command:
+```
+cd Vityarthi-project
+
+```
+
+**Step 3: Run the Application**
+Execute the main script using Python:
+```
+python main.py
+
+```
+## Usage Instructions
+1. **Start the Application:** Run `python main.py` in your command prompt. The main menu will appear on your screen.
+2. **Select an Action:** 
+   * Type `1` and press **Enter** to calculate a new electricity bill.
+   * Type `2` and press **Enter** to exit the application safely.
+3. **Enter Consumption Data:** If you selected `1`, the prompt will ask for the number of units consumed. Type a positive numerical value (e.g., `150` or `125.5`) and press **Enter**.
+4. **Review the Bill:** The program will instantly output the calculation, showing a list format of costs for each specific slab alongside the final total amount in Rs.
+5. **Continue or Exit:** After displaying the bill, the application automatically returns to the main menu. You can enter new units to calculate another bill or type `2` to quit.
+
+---
+
+## Instructions for Testing
+To thoroughly test the application, perform the following actions when the menu appears:
+
+1. **Test valid input (Slab 1):** Select option `1` and enter `90`. The expected total is Rs 450.
+2. **Test valid input (Slab 2):** Select option `1` and enter `150`. The expected total is Rs 850 (500 for the first 100 units + 350 for the remaining 50 units).
+3. **Test Error Handling:** Select option `1` and type some random letters (e.g., `abc`). The system should display an error and return you to the main menu instead of crashing.
+4. **Test Exit:** Select option `2` to verify that the program closes cleanly.
+"""
+
+with open("README.md", "w", encoding="utf-8") as file:
+    file.write(readme_content)
+
+print("README.md has been successfully generated in your current directory!")
