@@ -1,4 +1,4 @@
-from program.menu import display_menu
+from program.menu import menu
 from program.validators import get_valid_units
 from program.calculator import calculate_bill
 
@@ -7,7 +7,7 @@ def main():
     print("    ELECTRICITY BILL CALCULATOR")
     print("="*35)
     while True:
-        choice = display_menu()
+        choice = menu()
         
         if choice == '1':
             units = get_valid_units()
