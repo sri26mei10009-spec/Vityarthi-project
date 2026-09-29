@@ -1,5 +1,4 @@
 def get_valid_units():
-    """Prompts the user for units and validates the input."""
     try:
         units = float(input("\nEnter the number of units consumed: "))
         if units < 0:
