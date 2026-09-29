@@ -25,4 +25,4 @@ def main():
         else:
             print("\nInvalid choice! Please enter '1' to calculate or '2' to exit.")
 
-    main()
+main()
